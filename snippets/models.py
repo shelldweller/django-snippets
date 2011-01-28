@@ -4,6 +4,7 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class Snippet(models.Model):
+    
     name = models.CharField(_("name"), unique=True, max_length=50,
         help_text=_("""Unique name to identify your snippet (e.g., "home-page-announcement"). Do not change this field unless you know what you are doing."""))
     content = models.TextField(_("content"))
