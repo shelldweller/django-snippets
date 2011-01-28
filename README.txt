@@ -27,7 +27,7 @@ As content manager
 Login to the admin site and define snippets of your choice.
 
 Snippets can be deactivated. This will prevent them from being rendered. This
-comes handy when you don't need the snippet for the moment but need to keep its
+comes handy when you don't need the snippet for the moment but want to keep its
 content for later.
 
 As template designer
@@ -44,10 +44,7 @@ To use a snippet in your templates:
     {# or pass a variable #}
     {% get_snippet snippet_variable %}
 
-If you passed a variable that cannot be resolved this tag will blurt out:
-
-    <!-- Cannot resolve variable `snippet_variable`. Did you forget to add quotes? -->
-
+That's it.
 
 LICENSE
 =======
