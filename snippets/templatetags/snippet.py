@@ -18,7 +18,7 @@ class SippetRenderer(template.Node):
             try:
                 name = self.name.resolve(context)
             except template.VariableDoesNotExist:
-                return """<!-- Cannot resolve variable `%s`. Did you forget to add quotes? -->""" % self.name
+                return ""
         else:
             name = self.name
         try:
