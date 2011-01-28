@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <sergiy@kuzmenko.org>, 2011.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-27 23:06-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: models.py:7
+msgid "name"
+msgstr "назва"
+
+#: models.py:8
+msgid ""
+"Unique name to identify your snippet (e.g., \"home-page-announcement\"). Do "
+"not change this field unless you know what you are doing."
+msgstr ""
+"Неповторювана назва (напр., \"home-page-announcement\"), що ідентифікує ваш "
+"фрагмент.Просимо її не змінювати, за винятком випадків, коли ви абсолютно "
+"впевнені, що це необхідно."
+
+#: models.py:9
+msgid "content"
+msgstr "зміст"
+
+#: models.py:10
+msgid "is HTML?"
+msgstr "це HTML?"
+
+#: models.py:11
+msgid ""
+"If checked content will be output as is and you must enter a valid HTML code."
+msgstr "Якщо позначено, ви повинні ввести дійсний код HTML."
+
+#: models.py:12
+msgid "is active"
+msgstr "активовано"
+
+#: models.py:13
+msgid "Inactive snippets will not be rendered on the web site"
+msgstr "Деактивовані фрагменти не будуть відображені на веб-сайті."
+
+#: models.py:14
+msgid "created on"
+msgstr "створено"
+
+#: models.py:15
+msgid "modified on"
+msgstr "змінено"
+
+#: models.py:16
+msgid "last modified by"
+msgstr "останній користувач"
+
+#: models.py:22
+msgid "snippet"
+msgstr "фрагмент"
+
+#: models.py:23
+msgid "snippets"
+msgstr "фрагменти"
