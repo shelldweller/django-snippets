@@ -1,22 +1,14 @@
 ABOUT
 =====
 
-django-snippets enables content managers to maintain small chunks of text on
-various pages on your web site.
-
-One way to tackle this is to simply put appropriate texts into your template.
-This however presents a couple challenges. First, you need to re-upload your
-template pages each time you want to change that content. Secondly, there is no
-easy way to delegate content management of those embedded snippets.
-Django-snippets aims to address both of these issues.
+django-snippets enables content managers to maintain small chunks of text
+embedded on other pages (i.e., includes out of database).
 
 
 INSTALLATION
 ============
 
-As always: simply put django_snippets on your python search path and add
-`snippets` to your list of `INSTALLED_APPS`. Then run syncdb command.
-
+python setup.py install
 
 USAGE
 =====
